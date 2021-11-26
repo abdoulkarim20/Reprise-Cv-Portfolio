@@ -121,7 +121,7 @@
 .formation-libelle{
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
     color: #000000;
     margin-left: 1%;
@@ -144,6 +144,278 @@
 /* Fin section experinece */
 
 
+/* Langue section  */
+/* Cadre langue */
+.langue-div{
+    margin-top: 0.5rem;
+}
+.cadre-langue{
+    height: 466px;
+}
+.langue-parler{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+.pourcentage{
+    width: 268px;
+    height: 12.08px;
+    border-radius: 10px;
+    background: #C4C4C4;
+}
+.francais{
+    width: 243px;
+    height: 12.08px;
+    background: #2E75E0;
+    border-radius: 10px;
+}
+.anglais{
+    width: 102px;
+    height: 12.08px;
+    background: #C72EE0;;
+    border-radius: 10px;
+}
+.poular{
+    width: 259px;
+    height: 12.08px;
+    background: #B1E02E;
+    border-radius: 10px;
+}
+.soussou{
+    width: 259px;
+    height: 12.08px;
+    background: #B1E02E;
+    border-radius: 10px;
+}
+.malike{
+    width: 259px;
+    height: 12.08px;
+    background: #B1E02E;
+    border-radius: 10px;
+}
+.wolof{
+    width: 143px;
+    height: 12.08px;
+    background: #2EE0C0;;
+    border-radius: 10px;
+}
+.nom-langue{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+.maitrise-langue{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: -0.6rem;
+    
+}
+/* Fin cadre langue */
+/* Fin langue section */
+
+
+/* Section competances */
+.competemce-div{
+    height: 60px;
+}
+.cadre-competance{
+    height: 546px;
+}
+.pourcentage-position{
+    margin-left: 14rem;
+    margin-top: -1.2rem;
+}
+.competance-pourcentage{
+    margin-top: -1rem;
+}
+.nom-competance {
+    margin-top:0.5rem ;
+}
+.html{
+    width: 163px;
+    height: 12.08px;
+    background: #2E75E0;
+    border-radius: 10px;
+}
+.css{
+    width: 155px;
+    height: 12.08px;
+    background: #B1E02E;
+    border-radius: 10px;
+}
+.javascript{
+    width: 112px;
+    height: 12.08px;
+    background: #E0982E;
+    border-radius: 10px;
+}
+.bootstrap{
+    width: 158px;
+    height: 12.08px;
+    background: #2EE0C0;
+    border-radius: 10px;
+}
+.php{
+    width: 187px;
+    height: 12.08px;
+    background:  #2EE0C0;
+    border-radius: 10px;
+}
+.java{
+    width: 151px;
+    height: 12.08px;
+    background: #C72EE0;
+    border-radius: 10px;
+}
+.github{
+    width: 155px;
+    height: 12.08px;
+    background: #2EE0C0;
+    border-radius: 10px;
+}
+.ux-ui{
+    width: 188px;
+    height: 12.08px;
+    background: #2EE0C0;;
+    border-radius: 10px;
+}
+
+
+/* Fin section competances */
+
+
+/* partie profile */
+.profile-brief{
+    height: 641px;
+    background: #f3efef;
+    border: 1px solid #E5E5E5;
+}
+.photo-profile{
+    box-shadow: 0px 4px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 459px;
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+.hello{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hello-div{
+    width: 161px;
+    height: 61px;
+    background: #50EF28;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+.nom-devlopper{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-developer{
+    margin-left: 8px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+.mot-appelle{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 10px;
+    display: flex;
+    color: #000000;
+}
+.fonction-karim{
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 4rem;
+}
+.age-div{
+    display: flex;
+    flex-direction: row;
+    
+}
+.titre{
+    font-style: normal;   
+    font-size: 18px;
+    color: #000000;
+}
+.contenu-section{
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 200;   
+    color: #000000;
+}
+.aligne{
+    display: flex;
+    flex-direction: row;
+}
+.age{
+    margin-left: 32%;
+}
+.Adresse{
+    margin-left: 28%;
+}
+.email{
+    margin-left: 30%;
+}
+.telepone{
+    margin-left: 25%;
+}
+.categorie{
+    margin-left:17% ;
+}
+.mar-haut{
+    margin-top: -17%;
+}
+
+
+.cadre-icone{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background: chartreuse;   
+}
+.style-icone{
+    font-size: 3rem;
+    margin-right: 1.5rem;
+    color: #FFFFFF;
+}
+
+/* Fin partie profile */
+
+
 
 
 
@@ -156,7 +428,7 @@
 
 
 /* Media query mobile */
-@media only screen and (min-width: 320px) and (max-width:768px) {
+@media only screen and (min-width: 310px) and (max-width:768px) {
     /* navbar section */
     .mon-navbar{
         height: 60px;
@@ -165,6 +437,50 @@
         font-size: 24px;
     }
     /* Fin navbar section */
+
+     /* profil */
+    .marge-haut{
+        margin-top: -10%;
+    }
+    .profile-brief{
+        height: 100%;
+    }
+    .hello-div{
+        margin-top: 1rem;
+    }
+    .photo-profile{
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0.3rem;
+    }
+    .fonction-karim{
+        font-size: 10px;
+    }
+    .name-developer{
+        font-size: 15px;
+    }
+    .mot-appelle{
+        font-size: 18px;
+    }
+    .aligne{
+        flex-direction: column;
+    }
+    .age,.Adresse,.categorie,.email,.telepone{
+        margin-left: 0;
+    }
+    .style-icone{
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
+
+    .mar-haut{
+        margin-top: -2rem;
+    }
+    .mot-appelle{
+        margin-right: 0.5rem;
+    }
+    /* fin profile */
 
     /* centre interet section */
     .centre-div{
@@ -215,6 +531,74 @@
         font-size: 1.5rem;
     }
     /* Fin section experience */
+
+        /* Cadre langue */
+        .cadre-langue{
+            width: 100%;
+            height: 100%;
+        }
+        .langue-parler{
+            width: 96%;
+            margin-left: 2%;
+            margin-right: 2%;
+            border-radius: 10px;  
+        }
+        .pourcentage{
+            width: 155.89px;
+        }
+        .francais{
+            width: 141px;
+        }
+        .anglais, .wolof{
+            width:68.33px;
+        }
+        .poular , .malike, .soussou {
+            width:149.83px;
+        }
+        .langue-and-pourcentage{
+            display: flex;
+            justify-content: center;
+        }
+        .nom-langue{
+            font-size: 17px;
+        }
+        .maitrise-langue{
+            font-size: 14px;
+        }
+        /* Fin cadre langue */
+     /* Competance */
+     .pourcentage-position{
+        margin-left: 7.3rem;
+    }
+    .cadre-competance{
+        height: 100%;
+        width: 100%;
+    }
+    .html{
+        width: 108px;
+    }
+    .css{
+        width: 93px;
+    }
+    .javascript{
+        width: 66px;
+    }
+    .bootstrap{
+        width: 93px;
+    }
+    .php{
+       width: 110px; 
+    }
+    .java{
+        width: 88px;
+    }
+    .github{
+        width: 90px;
+    }
+    .ux-ui{
+        width: 110px;
+    }
+    /* Fin competance */
 }
 
 /* Fin Media query mobile */
@@ -238,7 +622,7 @@
         height: auto;
     }
     .titre-section{
-        font-weight: 900;
+        font-weight: 900px;
         font-size: 14px;
         line-height: 19px;
     }
@@ -253,6 +637,90 @@
         font-size: 1.5rem;
     }
     /* Fin a propos de moi et qualite personnelle */
+
+
+
+
+
+
+     /* Competance */
+     .pourcentage-position{
+        margin-left: 7.3rem;
+    }
+    .cadre-competance{
+        height: 100%;
+        width: 100%;
+    }
+    .html{
+        width: 108px;
+    }
+    .css{
+        width: 93px;
+    }
+    .javascript{
+        width: 66px;
+    }
+    .bootstrap{
+        width: 93px;
+    }
+    .php{
+       width: 110px; 
+    }
+    .java{
+        width: 88px;
+    }
+    .github{
+        width: 90px;
+    }
+    .ux-ui{
+        width: 110px;
+    }
+    /* Fin competance */
+
+
+
+      /* Cadre langue */
+      .cadre-langue{
+        width: 100%;
+        height: 100%;
+    }
+    .langue-parler{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border-radius: 10px;  
+    }
+    .pourcentage{
+        width: 155.89px;
+    }
+    .francais{
+        width: 141px;
+    }
+    .anglais, .wolof{
+        width:68.33px;
+    }
+    .poular , .malike, .soussou {
+        width:149.83px;
+    }
+    .langue-and-pourcentage{
+        display: flex;
+        justify-content: center;
+    }
+    .nom-langue{
+        font-size: 17px;
+    }
+    .maitrise-langue{
+        font-size: 14px;
+    }
+    /* Fin cadre langue */
+
+    .formation-libelle{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .formation-date{
+        font-size: 17px;
+    }
 }
 /* Fin media query Tablet */
 
