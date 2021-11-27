@@ -417,6 +417,97 @@
 
 
 
+/* Formulaire */
+.div-champ{
+    display: flex;
+    flex-direction: row;
+}
+.champ-nom{
+    margin-top: 15px;      
+    Height: 74px;
+    border-radius: 10px;
+    /* margin-bottom: 3%; */
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+
+}
+.message-text{
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    Height:180px;
+    border-radius: 10px; 
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+   
+}
+.contact{
+    padding-top: 2rem;
+    display: flex; 
+    flex-direction: column;prof
+    width: 400px;
+    height: 65%;
+    margin-top: 15px;
+    box-shadow: 0px 4px 8px 4px rgba(0, 0, 0, 0.25);
+}
+.icone-and-contenu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+}
+.image-icone{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    /* margin-right: 5rem; */
+}
+.phone-number{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+}
+.contenu-contact{
+    display: flex; 
+    flex-direction: column;
+   
+}
+.sectio-map{
+    display: flex;
+    flex-direction: column;
+}
+/* Fin Formulaire */
+
+/* Reference */
+.referent-div {
+    height: 410px;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+
+}
+.photo-reference{
+    box-shadow: 0px 4px 9px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    height: 359px;
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.name-referent{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000000;
+}
+.formation-libelle-referent{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+}
+/* Fin reference */
+
+
+
 
 
 
@@ -599,6 +690,28 @@
         width: 110px;
     }
     /* Fin competance */
+
+    /* refrence */
+    .name-referent{
+        font-size: 20px;
+        margin-top: 1.5rem;
+    }
+    .photo-reference{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .referent-div{
+        height: auto;
+        width: auto;
+    }
+    .referent-libelle-div{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    /* Fin reference */
 }
 
 /* Fin Media query mobile */
@@ -721,6 +834,23 @@
     .formation-date{
         font-size: 17px;
     }
+
+
+    /* refrence */
+       .name-referent{
+        font-size: 20px;
+        margin-top: 1.5rem;
+    }
+    .photo-reference{
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .referent-div{
+        height: auto;
+    }
+
+    /* Fin reference */
 }
 /* Fin media query Tablet */
 
